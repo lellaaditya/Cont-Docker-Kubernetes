@@ -18,8 +18,15 @@ Creating and accessing the k8s cluster
 
 <img width="716" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/aced6e62-5281-4926-afba-05d4b2d936f8">
 
+Service Accounts
 
-![Uploading image.png…]()
+<img width="713" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/23844619-a090-4c8b-bfba-cc2ad634d359">
+
+RBAC
+<img width="728" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b1487fde-fa3f-4a73-a79b-8f84895a7b7d">
+
+
+
 
 
 <img width="569" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/a8aaf7c7-7e22-4e85-86d9-9b7b1d471773">
