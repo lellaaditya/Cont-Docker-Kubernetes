@@ -23,6 +23,7 @@ Service Accounts
 <img width="713" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/23844619-a090-4c8b-bfba-cc2ad634d359">
 
 RBAC
+
 <img width="728" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b1487fde-fa3f-4a73-a79b-8f84895a7b7d">
 
 
