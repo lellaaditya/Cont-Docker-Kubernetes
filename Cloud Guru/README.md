@@ -36,6 +36,38 @@ Kubnet and Azure CNI
 
 <img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b7854df9-adf1-4116-a3c9-f5caa8ecb067">
 
+<img width="721" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/d52ef2a0-138e-465a-b832-2c54da63338d">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <img width="569" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/a8aaf7c7-7e22-4e85-86d9-9b7b1d471773">
