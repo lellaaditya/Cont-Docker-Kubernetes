@@ -50,6 +50,9 @@ Network Policies
 
 <img width="723" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/fe5eb9f5-fe93-49bf-b80c-0a68f9679953">
 
+Ingress Traffic
+
+<img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/59f59d42-caaa-4f3a-97cd-b2d17dfa8482">
 
 
 
