@@ -26,6 +26,9 @@ RBAC
 
 <img width="728" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b1487fde-fa3f-4a73-a79b-8f84895a7b7d">
 
+Az AD Integration
+
+<img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/1162cb1c-6f42-4628-93c1-83dd15fc2557">
 
 
 
