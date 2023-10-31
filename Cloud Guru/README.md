@@ -48,6 +48,8 @@ Network Policies
 
 <img width="710" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/1153bda3-5391-42a1-8013-fb368052afd3">
 
+<img width="723" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/fe5eb9f5-fe93-49bf-b80c-0a68f9679953">
+
 
 
 
