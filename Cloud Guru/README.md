@@ -44,6 +44,9 @@ Kubnet and Azure CNI
 
 <img width="329" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/dab059f6-3223-40a5-ba5b-d1e16142f889">
 
+Network Policies
+
+<img width="710" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/1153bda3-5391-42a1-8013-fb368052afd3">
 
 
 
