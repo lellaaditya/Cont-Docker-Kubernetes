@@ -30,7 +30,11 @@ Az AD Integration
 
 <img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/1162cb1c-6f42-4628-93c1-83dd15fc2557">
 
+Kubnet and Azure CNI
 
+<img width="711" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/418c1557-24b9-4677-92f2-5ceef9a3ce16">
+
+<img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b7854df9-adf1-4116-a3c9-f5caa8ecb067">
 
 
 
