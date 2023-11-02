@@ -154,3 +154,18 @@ What is the command to delete a Kubernetes service?
 
 kubectl delete svc SERVICE-NAME , kubectl delete services SERVICE-NAME
 
+A user is trying to access the application using the Nodes IP and Port number. What port must the user try to connect to?
+
+39376
+
+Which of the below statements are correct?
+
+Traffic to port 39376 on all nodes in the cluster is routed to port 9376 on a random POD with the label app web, Traffic to port 80 on the service is routed to port 9376 on a random POD with the label app web
+
+What port on the PODs is the web service most likely exposed on?
+
+9376
+
+For this service to discover the web service, what must be the label set on the PODs hosting the web service?
+
+app: web
