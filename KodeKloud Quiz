@@ -1,0 +1,82 @@
+Quiz Results
+check out your statistics.
+Total
+32
+Correct
+14
+Failed
+18
+Score
+44
+Replication Controllers and Replicasets
+Which of the following is the default deployment strategy in Kubernetes deployments?
+
+RollingUpdate
+
+What is the command to delete a ReplicaSets triage?
+
+kubectl delete rs triage
+
+You performed an upgrade of images on a deployment recently. You’d like to check what command was run during the last update. However the output of the rollout history command does not show the command. What may be the cause?
+
+The command run to upgrade did not use the –record flag.
+
+What kubectl command can be used to perform a Deployment update?
+
+kubectl set image
+
+How do you scale replica sets? Select all the answers that apply.
+
+Update the number of replicas in the replicaset-definition.yaml definition file and apply., Update using the kubectl scale command.
+
+What is the command to delete a replication controller nginx?
+
+kubectl delete rc nginx
+
+What is the command to update the deployment in Kubernetes? Let’s update the nginx Pods to use the nginx:1.16.1 image instead of the nginx:1.14.2 image.
+
+kubectl set image deployment.v1.apps/nginx-deployment nginx=nginx:1.16.1, kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1,kubectl edit deployment.v1.apps/nginx-deployment
+
+Which of the following are the deployment strategy types in Kubernetes?
+
+RollingUpdate , Recreate
+
+Which of the following statements about Kubernetes deployments are correct?
+
+You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate.,You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments., You should not manually update the ReplicaSets owned by a Deployment.
+
+Which statement best describes deployment in Kubernetes? Select all the answers that apply.
+
+Deployments create ReplicaSets that create PODs.,Deployments support rolling updates and roll backs of applications.
+
+Which statements best describe replication controllers and replica sets? Select all answers that apply.
+
+Replication Controller is the older technology that is being replaced by a ReplicaSet., The replication controller supports equality based selectors whereas the replica set supports equality based as well as set based selectors.,ReplicaSet is the new way to set up replication.
+
+If .spec.strategy.type is set to RollingUpdate, then all new PODs are created first and then all existing pods are killed at once.
+
+False
+
+Where do you configure the pod images in the deployment YAML file?
+
+spec.template.spec.containers.image
+
+What is the flag that you use along with “kubectl create” to scale a deployment in Kubernetes?
+
+–replicas
+
+The label selector is the core grouping primitive in Kubernetes. What kind of selectors are supported?
+
+Equality-Based , Set-Based
+
+What is the command used to view previous rollout revisions and configurations?
+
+kubectl rollout history
+
+What is the command to get the list of deployments. Select all the answers that apply.
+
+kubectl get deploy ,kubectl get deployment ,kubectl get deployments,kubectl get deployments.apps
+
+Where do you configure the selector labels in the deployment YAML file?
+
+spec.selector
