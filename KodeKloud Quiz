@@ -132,3 +132,25 @@ kubectl set image
 Where do you configure the selector labels in the deployment YAML file?
 
 spec.selector
+
+
+What is the default range of ports that Kubernetes uses for NodePort if one is not specified?
+
+30000-32767
+
+A NodePort service exposes a deployment only on the nodes on which the PODs of that deployment are running.
+
+False
+
+Which of the following are valid service types in Kubernetes?
+
+NodePort ,ClusterIP ,LoadBalancer, ExternalName
+
+Each container inside a POD gets its own IP address assigned
+
+False
+
+What is the command to delete a Kubernetes service?
+
+kubectl delete svc SERVICE-NAME , kubectl delete services SERVICE-NAME
+
