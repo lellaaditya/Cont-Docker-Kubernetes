@@ -80,3 +80,55 @@ kubectl get deploy ,kubectl get deployment ,kubectl get deployments,kubectl get 
 Where do you configure the selector labels in the deployment YAML file?
 
 spec.selector
+
+ETCD by default listens on port 2780.
+
+False
+
+How do you add labels to a pod in a pod definition YAML file?
+
+metadata.labels
+
+Which statement best describes the readiness probe?
+
+The kubelet uses readiness probes to know when a container is ready to start accepting traffic.,The Readiness probes run on the container during its whole lifecycle.
+
+Which of the following are the deployment strategy types in Kubernetes?
+
+Recreate, RollingUpdate
+
+Which among the following statements are true without any change made to the default behaviour of network policies in the namespace?
+
+As soon as a network policy is associated with a POD all ingress and egress traffic to that POD are denied except those allowed by the network policy
+
+The command and arguments that you define in the Kubernetes definition file override the default command and arguments configured in the container image.
+
+True
+
+What is a component of the Kubernetes control plane that allows external users or services to manage the Kubernetes cluster?
+
+Kube API Server
+
+Which of the below are the container orchestration tools?
+
+Kubernetes ,Docker Swarm , Apache Mesos
+
+You can pass in the --from-file argument multiple times to create a ConfigMap from multiple data sources.
+
+True
+
+Which of the following are the container runtimes that Kubernetes supports?
+
+Docker ,Containerd ,CRI-O
+
+Where do you configure the pod images in the deployment YAML file?
+
+spec.template.spec.containers.image
+
+What kubectl command can be used to perform a Deployment update?
+
+kubectl set image
+
+Where do you configure the selector labels in the deployment YAML file?
+
+spec.selector
