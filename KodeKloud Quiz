@@ -201,3 +201,21 @@ The kubelet uses liveness probes to know when to restart a container, The livene
 Which of the following solutions support network policies?
 
 kube-router , Calico ,Weave-Net
+
+
+
+What is the command to view the version of docker engine installed?
+
+docker version
+
+What component of the docker architecture is responsible for managing containers on Linux on version 1.15 of Docker Engine?
+
+LibContainer
+
+What are the 2 specifications from OCI?
+
+runtime-spec,image-spec
+
+Which component is responsible for keeping the containers alive when the Docker Daemon goes down?
+
+Containerd-Shim
