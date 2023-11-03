@@ -55,7 +55,7 @@ Ingress Traffic
 <img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/59f59d42-caaa-4f3a-97cd-b2d17dfa8482">
 
 
-
+Web Application Firewall
 
 
 
