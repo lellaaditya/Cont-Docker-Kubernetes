@@ -57,6 +57,11 @@ Ingress Traffic
 
 Web Application Firewall
 
+<img width="719" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/73161941-7eea-4685-98f8-2867ad94129b">
+
+Persistent Volume and Persistent Volume Claims
+
+<img width="719" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/7b513859-963a-44ff-b203-59b5ccfb9440">
 
 
 
