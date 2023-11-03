@@ -63,6 +63,9 @@ Persistent Volume and Persistent Volume Claims
 
 <img width="719" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/7b513859-963a-44ff-b203-59b5ccfb9440">
 
+Static vs Dynamic volumes
+
+<img width="716" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b3c3df2f-be71-429b-b00d-8ea480b347fe">
 
 
 
