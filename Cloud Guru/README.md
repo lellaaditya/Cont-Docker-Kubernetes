@@ -80,6 +80,9 @@ Pod resources requests and limits
 <img width="712" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/e25c0988-13b1-4104-9eff-41fd95a67ad1">
 
 
+Scaling option
+
+<img width="713" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/775a6d33-f3d3-4bd9-90ce-f15844975315">
 
 
 
