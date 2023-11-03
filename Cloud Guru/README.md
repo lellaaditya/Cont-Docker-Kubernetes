@@ -94,10 +94,22 @@ Azure Dev Spaces
 
 <img width="713" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/cabc4752-1c6d-4450-82e7-45fb6000e1dd">
 
+Virtual Kubelet
+
+<img width="702" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/22a70e2a-a967-4311-b870-9d8897fb20f2">
+
+Azure Mointor For Containers
+
+<img width="720" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/47c9d8c2-5f29-4478-8cef-f8ef87d11fba">
+
+Cluster Metrics
+
+<img width="724" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/ac4c6fb5-7500-4320-8ea6-f142f384294a">
 
 
+Application Insights
 
-
+<img width="724" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/95026661-4db3-4367-a7a6-71ecf4f8eb83">
 
 
 
