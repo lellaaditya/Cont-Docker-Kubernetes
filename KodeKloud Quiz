@@ -259,3 +259,71 @@ CMD [“executable”,“param1”,“param2”],CMD [“param1”,“param2”]
 If CMD is used to provide default arguments for the ENTRYPOINT instruction, both the CMD and ENTRYPOINT instructions should be specified.
 
 True
+
+While trying to delete image mariadb, you got an error “conflict: unable to remove repository reference mariadb (must force) – container 1a56b95e073c is using its referenced image adf2b126dda8”. What may be the cause of this error?
+
+A container is using this image
+
+Which command is used to list the full length image IDs?
+
+docker images --no-trunc
+
+A build’s context is the set of files located in the specified PATH or URL. Which kind of resources can the URL parameter refer to ?
+
+Git Repositories , Pre-packaged tarball contexts , Path to a local directory
+
+Which command can be used to get a backup of image mysql?
+
+docker image save mysql -o mysql.tar
+
+What is the command to build an image with the name webapp using a Dockerfile file under path /opt/myapp . The current directory you are in is /tmp.
+
+docker build -f /opt/myapp/Dockerfile /opt/myapp -t webapp
+
+What is the command to list the images in Docker host?
+
+ocker image ls , docker image ps,docker image list
+
+What is a best practice while installing multiple packages as part of the install instruction?
+
+Add them on separate lines separated by a slash in alphanumeric order
+
+If you list more than one CMD instruction in the Dockerfile then the second instruction will be appended to the first.
+
+False
+
+You are required to generate a report of the total amount of space consumed by docker images, containers and build cache on a docker host. What would be your approach?
+
+Run the command docker system df
+
+The COPY /tmp/file.tar.gz copies and extracts the tar file into the image.
+
+False
+
+Which command is used to remove kodekloud:v1 image locally?
+
+docker image rm kodekloud:v1,docker image remove kodekloud:v1
+
+Which instruction(s) can be used in the Dockerfile to copy content from the local filesystem into the containers?
+
+ADD
+
+When you log in to a registry, the command stores credentials in which location path?
+
+$HOME/.docker/config.json
+
+What is the command to change the tag of busybox:latest to busybox:v1?
+
+docker image tag busybox:latest busybox:v1
+
+Which of the below steps can help minimize the build time of images?
+
+Avoid sending unwanted files to the build context using .dockerignore., Move the instructions that are likely to change most frequently to the bottom of the Dockerfile.
+
+Whenever a build is initiated by running the Docker build command, the files under the build context are transferred to the Docker daemon, at a temporary directory under the docker’s filesystem. Which directory are these files stored in?
+
+/var/lib/docker/tmp
+
+You have created an nginx container and customized it to create your own webpage. How can you create an image out of it to share with others?
+
+docker export
