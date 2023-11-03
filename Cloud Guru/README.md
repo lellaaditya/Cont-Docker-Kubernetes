@@ -75,6 +75,9 @@ Azure Site recovery
 
 <img width="716" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/8bce7d3d-6db9-4776-ab51-79eec8811b8a">
 
+Pod resources requests and limits
+
+<img width="712" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/e25c0988-13b1-4104-9eff-41fd95a67ad1">
 
 
 
