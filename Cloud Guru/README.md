@@ -85,6 +85,9 @@ Scaling option
 <img width="713" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/775a6d33-f3d3-4bd9-90ce-f15844975315">
 
 
+kube-Advisor Tool
+
+<img width="718" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/12f3df6c-063f-437b-8894-4620353b587a">
 
 
 
