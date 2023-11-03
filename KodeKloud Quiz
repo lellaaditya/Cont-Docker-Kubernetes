@@ -219,3 +219,43 @@ runtime-spec,image-spec
 Which component is responsible for keeping the containers alive when the Docker Daemon goes down?
 
 Containerd-Shim
+
+It’s recommended to avoid sending unwanted files to the build context by using .gitignore file to exclude those files.
+
+False
+
+What is the output of the following Dockerfile snippet when container runs as docker run -it <image>?
+
+Hello world
+
+You are developing an e-commerce application. The application must store cart details of users temporarily as long as the user’s session is active. What is the recommended approach to storing the cart details with the application deployed as a docker container?
+
+Store the cart details in a volume backed by a in-memory cache service like redis
+
+Which is the recommended approach to install packages following the best practices in Dockerfile?
+
+RUN apt-get update && apt-get install -y \        git \        httpd
+
+What instruction is used to copy a file from an external image named redis not part of any stage in the multi-stage build process?
+
+–from=redis
+
+By default, the stages are not named, and you refer to them by their integer number, starting with 1 for the first FROM instruction in the multi-stage build.
+
+False
+
+Which of the below steps can help minimize the build time of images?
+
+Avoid sending unwanted files to the build context using .dockerignore,Move the instructions that are likely to change most frequently to the bottom of the Dockerfile
+
+How do you identify if a Docker file is configured to use multi-stage builds?
+
+The Dockerfile has multiple FROM instructions
+
+Which of the following is the correct format for CMD instruction?
+
+CMD [“executable”,“param1”,“param2”],CMD [“param1”,“param2”],CMD command param1 param2
+
+If CMD is used to provide default arguments for the ENTRYPOINT instruction, both the CMD and ENTRYPOINT instructions should be specified.
+
+True
