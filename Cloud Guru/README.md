@@ -67,7 +67,13 @@ Static vs Dynamic volumes
 
 <img width="716" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/b3c3df2f-be71-429b-b00d-8ea480b347fe">
 
+Node Sizing
 
+<img width="719" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/ca6282f0-8991-4950-aae8-bdbfe25eded6">
+
+Azure Site recovery
+
+<img width="716" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/8bce7d3d-6db9-4776-ab51-79eec8811b8a">
 
 
 
