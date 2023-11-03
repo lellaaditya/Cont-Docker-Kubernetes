@@ -111,6 +111,9 @@ Application Insights
 
 <img width="724" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/95026661-4db3-4367-a7a6-71ecf4f8eb83">
 
+Live Logs
+
+<img width="722" alt="image" src="https://github.com/lellaaditya/Kubernetes/assets/139613275/ff82214e-de1e-4e88-9886-2d18fa7ab961">
 
 
 
