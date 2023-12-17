@@ -1,5 +1,3 @@
-### Kubernetes
-
 ## Containerization (Docker)📦
 Why to Learn?
 Kubernetes is fundamentally a container orchestration tool, managing the deployment, scaling,
