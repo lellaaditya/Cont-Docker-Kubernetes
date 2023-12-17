@@ -1,11 +1,12 @@
-# Kubernetes
+### Kubernetes
 
-Containerization (Docker)📦
+## Containerization (Docker)📦
 Why to Learn?
 Kubernetes is fundamentally a container orchestration tool, managing the deployment, scaling,
 and operation of application containers. it's important to understand the basics of
 containerization. You should be familiar with concepts such as images, containers, and
 container registries.
+
 There are different software tools that can be used to build containers (container runtimes), but
 the ones that are supported by Kubernetes are Docker, containerd, CRI-O, and any other
 implementation of the Kubernetes CRI (Container Runtime Interface).
