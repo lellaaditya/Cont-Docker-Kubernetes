@@ -21,5 +21,9 @@ az aks list -o table
 ```
 
 ```
-[kubectl get nodes](https://learn.microsoft.com/en-us/azure/aks/virtual-nodes)https://learn.microsoft.com/en-us/azure/aks/virtual-nodes
+https://learn.microsoft.com/en-us/azure/aks/virtual-nodes
+```
+
+```
+https://learn.microsoft.com/en-us/azure/aks/virtual-nodes-cli
 ```
