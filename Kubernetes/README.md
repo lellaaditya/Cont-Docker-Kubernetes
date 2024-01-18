@@ -5,6 +5,10 @@ https://github.com/HoussemDellai/k8s-scalability.git
 
 https://github.com/HoussemDellai/docker-kubernetes-course
 
+k8s security
+
+https://github.com/HoussemDellai/aks-keyvault
+
 
 To View Current Namespace
 ```
