@@ -1,1 +1,6 @@
-https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUM3QXR2cE1kVFp1N1VmZXBPT25uNkp5cEdEUXxBQ3Jtc0trdkVlSHFMVkswMVRCVDcxbW1tN0hmYnJFLXpnN1Z6ZElxQ0FmV2NzTy1EdUduUnJLQTJVR1FudDlDM3BoOE5rWHFUTUFCblZ3N1hkcktVZ3VUc0J1Z29zdlZvMjdfNjlSWU9vaXNQYjMzT2pWVmpuMA&q=https%3A%2F%2Fkubernetes.io%2Fdocs%2Freference%2Fkubectl%2Fcheatsheet%2F&v=ORSxQeboprc
+```
+https://kubernetes.io/docs/reference/kubectl/quick-reference/
+```
+```
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.22/
+```
