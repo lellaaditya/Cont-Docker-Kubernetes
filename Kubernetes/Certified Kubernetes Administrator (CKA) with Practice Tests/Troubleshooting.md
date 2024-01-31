@@ -39,3 +39,53 @@ openssl x509 -in /var/lib/kubelet/workr.crt -text
 
 ---
 
+---
+
+ImagePullBackOff -- Invalid Image / invalid tag / invalid permission
+
+---
+
+Image pulled but pod is pending
+ resourcequota on namespace?
+ requests and limits set?
+node or nodes lacks resources?
+also check the kube-scheduler component
+
+kubectl describe
+kubectl logs
+if not imagepullbackoff
+
+kubectl get events
+
+---
+
+crashloopbackoff
+
+occurs when runtime configuration is not working
+
+How to detect a CrashLoopBackOff in your cluster?
+
+kubectl get pods
+
+common reasons for crashloopbackoff
+
+Actual Application
+misconfiguration: type in config file
+resource is not available: persistentvolume not mounted
+wrong command line arguments: either missing or incorrect
+bugs&exceptions: specific to application
+
+network and permission
+
+tried to bind an existing port
+memory limits are too low -- out of memory killed
+errors in livenessprobes are not reporting the pod as ready
+read-only filesystesm or lack of permissions in general
+
+check
+ --- kubectl describe pod
+     kubectl logs
+     kubectl get events
+     kubetcl describe deployment
+
+---
