@@ -1,1 +1,13 @@
+kubectl config current-context
 
+kubectl create ns aditya
+
+kubectl get storageclass
+
+kubectl get pods -n aditya
+
+kubectl describe pod podname -n namespacename
+
+kubectl get pvc -n namespacename
+
+kubectl get svc -n namespace
