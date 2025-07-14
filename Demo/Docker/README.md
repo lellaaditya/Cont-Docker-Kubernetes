@@ -38,4 +38,6 @@ Build -> Push
 
 https://github.com/lellaaditya/Cont-Docker-Kubernetes/blob/main/Demo/Docker/Dockerfile
 
+https://github.com/lellaaditya/Cont-Docker-Kubernetes/blob/main/Demo/Kubernetes/azure-pipeline.yaml
+
 ![alt text](image-5.png)
