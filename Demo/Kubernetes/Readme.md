@@ -6,7 +6,9 @@ K8s,
 - on-premises, hybrid, or public cloud infrastructure
 
 Cluster - A cluster is a set of nodes (physical or virtual machines) running Kubernetes agents, managed by the control plane
-Pod - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes
+
+Pod - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.Containers runs inside the Pod
+
 Node - physical or virtual machines
 
 <img width="918" height="595" alt="image" src="https://github.com/user-attachments/assets/6cb3f983-0751-4657-a9b7-1ee1eb667234" />
@@ -16,12 +18,13 @@ Node - physical or virtual machines
 kube-apiserver
 - Takes all the requests from the external world.The API server is the front end for the Kubernetes control plane
 - Used to manage create and config k8s external components and parts of cluster all communication to each other
+
 etcd
 - Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data
 kube-scheduler
 
 kube-controller-manager
-- a controller is a control loop that watches the shared state of cluster through the apiserver and makes changes attemptingto move the current state towards the desired state
+- a controller is a control loop that watches the shared state of cluster through the apiserver and makes changes attempting to move the current state towards the desired state
 
 cloud-controller-manager
 - embeds cloud-specific control logic.Node controller,Route controller,Service controller
@@ -91,6 +94,10 @@ Kubectl get svc
 CI/CD Process
 
 Build -> Push the Image ->Deploy
+
+https://github.com/lellaaditya/Cont-Docker-Kubernetes/blob/main/Demo/Kubernetes/azure-pipeline.yaml
+
+https://github.com/lellaaditya/Cont-Docker-Kubernetes/tree/main/Demo/Kubernetes/manifests
 
 ![alt text](image-2.png)
 

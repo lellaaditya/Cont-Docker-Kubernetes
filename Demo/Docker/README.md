@@ -5,7 +5,7 @@ Containerize an application Hello-world Python
 
 Build the Image
 
-docker build -t hello-world .
+docker build -t hello-world-py .
 
 ![alt text](image-3.png)
 
@@ -34,6 +34,8 @@ Access the Application
 
 # CI Pipeline(Azure Pipelines)
 
-Build -> Push 
+Build -> Push
+
+https://github.com/lellaaditya/Cont-Docker-Kubernetes/blob/main/Demo/Docker/Dockerfile
 
 ![alt text](image-5.png)
