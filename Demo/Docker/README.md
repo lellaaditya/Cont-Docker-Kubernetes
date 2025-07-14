@@ -41,3 +41,8 @@ https://github.com/lellaaditya/Cont-Docker-Kubernetes/blob/main/Demo/Docker/Dock
 https://github.com/lellaaditya/Cont-Docker-Kubernetes/blob/main/Demo/Kubernetes/azure-pipeline.yaml
 
 ![alt text](image-5.png)
+
+
+Push Image to ACR
+
+<img width="892" height="736" alt="image" src="https://github.com/user-attachments/assets/26996a9f-46f3-450d-9a65-bdbfab64fd03" />
