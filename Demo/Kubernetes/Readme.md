@@ -66,6 +66,26 @@ No more than 300,000 total containers
 You can scale your cluster by adding or removing nodes. The way you do this depends on how your cluster is deployed
 
 
+kubectl create -f FILENAME
+
+examples 
+
+kubectl create -f deployment.yml
+
+kubectl create -f service.yml
+
+To check the Pods
+
+Kubectl get pods
+
+![alt text](image-3.png)
+
+To Check the Service
+
+Kubectl get svc
+
+![alt text](image-4.png)
+
 
 # Azure Pipelines
 CI/CD Process
@@ -73,3 +93,8 @@ CI/CD Process
 Build -> Push the Image ->Deploy
 
 ![alt text](image-2.png)
+
+
+Access the Application with Load balancer
+
+![alt text](image-5.png)
