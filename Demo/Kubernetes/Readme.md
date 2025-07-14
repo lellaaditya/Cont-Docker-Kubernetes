@@ -6,7 +6,7 @@ K8s,
 - on-premises, hybrid, or public cloud infrastructure
 
 Cluster - A cluster is a set of nodes (physical or virtual machines) running Kubernetes agents, managed by the control plane
-Pod - 
+Pod - Pods are the smallest deployable units of computing that you can create and manage in Kubernetes
 Node - physical or virtual machines
 
 <img width="918" height="595" alt="image" src="https://github.com/user-attachments/assets/6cb3f983-0751-4657-a9b7-1ee1eb667234" />
@@ -14,23 +14,29 @@ Node - physical or virtual machines
 # Control plane components
 
 kube-apiserver
-
+- Takes all the requests from the external world.The API server is the front end for the Kubernetes control plane
+- Used to manage create and config k8s external components and parts of cluster all communication to each other
 etcd
-
+- Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data
 kube-scheduler
 
 kube-controller-manager
+- a controller is a control loop that watches the shared state of cluster through the apiserver and makes changes attemptingto move the current state towards the desired state
 
 cloud-controller-manager
-
+- embeds cloud-specific control logic.Node controller,Route controller,Service controller
 # Node components
 
 kubelet
+- creation and manages the pod
 
 kube-proxy
+- provides networking,ip addresses,load balancing
 
 Container runtime
+- responsible for managing the execution and lifecycle of containers within the Kubernetes environment
 
+On-Prem
 
 kind lets you run Kubernetes on your local computer
 
@@ -50,9 +56,13 @@ kubectl is an Kubernetes command-line tool to run commands against Kubernetes cl
 A cluster is a set of nodes (physical or virtual machines) running Kubernetes agents, managed by the control plane. Kubernetes v1.33 supports clusters with up to 5,000 nodes. More specifically, Kubernetes is designed to accommodate configurations that meet all of the following criteria:
 
 No more than 110 pods per node
+
 No more than 5,000 nodes
+
 No more than 150,000 total pods
+
 No more than 300,000 total containers
+
 You can scale your cluster by adding or removing nodes. The way you do this depends on how your cluster is deployed
 
 
@@ -60,42 +70,6 @@ You can scale your cluster by adding or removing nodes. The way you do this depe
 # Azure Pipelines
 CI/CD Process
 
-- stage: Deploy
-  displayName: Deploy stage
-  dependsOn: Build
-  jobs:
-  - deployment: Deploy
-    displayName: Deploy job
-    pool:
-      vmImage: $(vmImageName)
-    environment: 'myenv.aksnamespace' #customize with your environment
-    strategy:
-      runOnce:
-        deploy:
-          steps:
-          - task: DownloadPipelineArtifact@2
-            inputs:
-              artifactName: 'manifests'
-              downloadPath: '$(System.ArtifactsDirectory)/manifests'
+Build -> Push the Image ->Deploy
 
-          - task: KubernetesManifest@1
-            displayName: Create imagePullSecret
-            inputs:
-              action: 'createSecret'
-              connectionType: 'kubernetesServiceConnection'
-              kubernetesServiceConnection: 'myapp-default' #customize for your Kubernetes service connection
-              secretType: 'dockerRegistry'
-              secretName: '$(imagePullSecret)'
-              dockerRegistryEndpoint: '$(dockerRegistryServiceConnection)'
-
-          - task: KubernetesManifest@1
-            displayName: Deploy to Kubernetes cluster
-            inputs:
-              action: 'deploy'
-              connectionType: 'kubernetesServiceConnection'
-              kubernetesServiceConnection: 'myapp-default' #customize for your Kubernetes service connection
-              manifests: |
-                $(Pipeline.Workspace)/manifests/deployment.yml
-                $(Pipeline.Workspace)/manifests/service.yml
-              containers: '$(containerRegistry)/$(imageRepository):$(tag)'
-              imagePullSecrets: '$(imagePullSecret)'
+![alt text](image-2.png)

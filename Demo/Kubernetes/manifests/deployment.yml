@@ -16,4 +16,4 @@ spec:
         - name: helloworld 
           image: adityaworld.azurecr.io/helloworld
           ports:
-          - containerPort: 80
+          - containerPort: 8080
