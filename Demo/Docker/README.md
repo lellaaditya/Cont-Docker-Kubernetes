@@ -47,4 +47,4 @@ Push Image to ACR
 
 <img width="892" height="736" alt="image" src="https://github.com/user-attachments/assets/26996a9f-46f3-450d-9a65-bdbfab64fd03" />
 
-Note: From the above Image container registry name should be adityaworld instead of mycontainerregistry
+# Note: From the above Image container registry name should be adityaworld instead of mycontainerregistry
