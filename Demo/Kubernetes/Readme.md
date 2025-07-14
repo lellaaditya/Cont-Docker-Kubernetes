@@ -43,7 +43,6 @@ managed Kubernetes service
 - by AWS which is EKS
 - by Google which is GKE
 
-![alt text](image-1.png)
 
 kubectl is an Kubernetes command-line tool to run commands against Kubernetes clusters
 
