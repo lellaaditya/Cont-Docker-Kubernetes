@@ -1,5 +1,8 @@
 # Source
 
+https://notes.kodekloud.com/docs/Azure-Kubernetes-Service/Introduction/Course-Introduction
+
+
 https://github.com/HoussemDellai/k8s-scalability.git
 
 
