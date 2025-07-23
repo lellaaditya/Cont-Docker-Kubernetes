@@ -46,3 +46,7 @@ https://learn.microsoft.com/en-us/azure/aks/virtual-nodes
 ```
 https://learn.microsoft.com/en-us/azure/aks/virtual-nodes-cli
 ```
+
+# drain
+
+https://www.linkedin.com/posts/govardhana-miriyala-kannaiah_not-a-joke-many-kubernetes-engineers-dont-activity-7353619892060737536-wAo8?utm_source=social_share_video_v2&utm_medium=android_app&rcm=ACoAAAm2IbQBh6-BGDU6dh3YDUztEgaz0Y2aVMY&utm_campaign=copy_link
